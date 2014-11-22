@@ -17,7 +17,7 @@
 ;   fpf         : structure with all tags and data from .fpf file.
 ;
 ; example:
-;   file = '/Users/Shared/F0809141500_1.FPF'
+;   file = 'Example.FPF'
 ;   fpf = read_fpf(file)
 ;   tvscl, rotate(fpf.data,7)
 ;   

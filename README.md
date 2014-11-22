@@ -23,8 +23,7 @@ read_fpf_sequence.pro
 purpose: reads multiple FLIR Public Format files from FLIR thermal cameras stored in the same directory and creates a sequence
 
 option
-*   step : if set to a value y > 1, only every yth image will be read
-          default: all files will be read
+*   step : if set to a value y > 1, only every y-th image will be read
 
 output: structure with the following tags:
 

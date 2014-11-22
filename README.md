@@ -17,22 +17,6 @@ output: structure with all tags and data from .fpf file.
 revision history: 14-May-09
 
 
-read_fpf_sequence.pro
-----------------
-
-purpose: reads multiple FLIR Public Format files from FLIR thermal cameras stored in the same directory and creates a sequence
-
-option
-*   step : if set to a value y > 1, only every y-th image will be read
-
-output: structure with the following tags:
-
-* img[x,y,t]: x is x dimension of fpf file, y is y dimension of fpf file, t is the number of time steps
-* julian[t]: julian date corresponding to each time step            
-* milliseconds[t]: millisecond fraction within each second of each time step            
-
-revision history: 14-May-09
-
 General comments
 ----------------
 

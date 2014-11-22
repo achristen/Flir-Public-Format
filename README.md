@@ -1,14 +1,14 @@
-IDL Importer for Flir-Public-Format 
+IDL Importer for FLIR&reg;-Public-Format 
 ==================
 
 Keywords: Time-Sequential Thermography, Thermal Camera, Thermal Remote Sensing
 
-Routines for the commercial Interactive Data Language (IDL) to import single files or entire time series (sequence of single files) of thermal camera data stored in Flir-Public-Format (Flir Thermal Cameras).
+Routines for the commercial Interactive Data Language (IDL) to import single files or entire time series (sequence of single files) of thermal camera data stored in FLIR&reg;-Public-Format (FLIR&reg; Thermal Cameras).
 
 read_fpf.pro
 ----------------
 
-Reads a single image in FLIR Public Format (i.e. file from FLIR thermal camera) into a structure containing radiative temperatures and header information.
+Reads a single image in FLIR&reg; Public Format (i.e. file from FLIR thermal camera) into a structure containing radiative temperatures and header information.
 
 options
 *   header_only : if set only header of fpf file is read, but not data.
@@ -17,7 +17,7 @@ options
 read_fpf_sequence.pro
 ----------------
 
-Reads multiple FLIR Public Format files stored in the same directory based on their relative time information into a time-sequential array [x,y,t], where x is width dimension of fpf file, y is hight dimension of fpf file and t is the number of time steps.
+Reads multiple FLIR&reg; Public Format files stored in the same directory based on their relative time information into a time-sequential array [x,y,t], where x is width dimension of fpf file, y is hight dimension of fpf file and t is the number of time steps.
 
 sequence_statistics.pro
 ----------------
